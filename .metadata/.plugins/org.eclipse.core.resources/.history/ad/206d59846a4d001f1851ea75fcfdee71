@@ -1,0 +1,12 @@
+package test240729.object1;
+
+import java.util.Scanner;
+
+public class LotteryMenu {
+	private Scanner sc = new Scanner(System.in);
+	private LotteryController lc = new LotteryController();
+	
+	public void mainMenu() {
+		
+	}
+}

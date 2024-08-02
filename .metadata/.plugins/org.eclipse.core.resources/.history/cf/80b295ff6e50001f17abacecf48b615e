@@ -1,0 +1,17 @@
+package test1;
+
+public class Overloading {
+	
+	public static void test() {}
+	public void test(String str) {}
+	public void test(int i) {}
+	public void test1(String s) {}
+	public void test(char ch) {}
+	public void test(String str, int i) {}
+	public void test(int i, String str) {}
+	private void test1(int i) {}
+	public void test1() {return;}
+	public static void main(String[] args) {
+		test();
+	}
+}

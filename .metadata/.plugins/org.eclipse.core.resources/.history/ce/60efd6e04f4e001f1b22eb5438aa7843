@@ -1,0 +1,17 @@
+package pokemonDirectory;
+
+public class PD {
+	private String name;
+	private String type;
+	private int HP;
+	private int Atk;
+	private int Def;
+	private int SAtk;
+	private int SDef;
+	private int Spd;
+	private int BaseStats;
+	public PD() {
+		super();
+	}
+
+}

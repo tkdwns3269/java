@@ -1,0 +1,103 @@
+package pokemonDirectory;
+
+public class PD {
+	private String name;
+	private String type;
+	private int BaseStats;
+	private int HP;
+	private int Atk;
+	private int SAtk;
+	private int Def;
+	private int SDef;
+	private int Spd;
+
+	public PD() {
+		super();
+	}
+
+	public PD(String name, String type, int baseStats, int hP, int atk, int sAtk, int def, int sDef, int spd) {
+		super();
+		this.name = name;
+		this.type = type;
+		BaseStats = baseStats;
+		HP = hP;
+		Atk = atk;
+		SAtk = sAtk;
+		Def = def;
+		SDef = sDef;
+		Spd = spd;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public int getBaseStats() {
+		return BaseStats;
+	}
+
+	public void setBaseStats(int baseStats) {
+		BaseStats = baseStats;
+	}
+
+	public int getHP() {
+		return HP;
+	}
+
+	public void setHP(int hP) {
+		HP = hP;
+	}
+
+	public int getAtk() {
+		return Atk;
+	}
+
+	public void setAtk(int atk) {
+		Atk = atk;
+	}
+
+	public int getSAtk() {
+		return SAtk;
+	}
+
+	public void setSAtk(int sAtk) {
+		SAtk = sAtk;
+	}
+
+	public int getDef() {
+		return Def;
+	}
+
+	public void setDef(int def) {
+		Def = def;
+	}
+
+	public int getSDef() {
+		return SDef;
+	}
+
+	public void setSDef(int sDef) {
+		SDef = sDef;
+	}
+
+	public int getSpd() {
+		return Spd;
+	}
+
+	public void setSpd(int spd) {
+		Spd = spd;
+	}
+
+}

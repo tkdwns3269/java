@@ -1,0 +1,8 @@
+package test1;
+
+public class Run {
+	public static void main(String[] args) {
+		Food fd = new Food();
+		fd.fileSave("사과", 20);
+	}
+}

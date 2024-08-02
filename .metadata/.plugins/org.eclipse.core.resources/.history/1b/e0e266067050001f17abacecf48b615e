@@ -1,0 +1,22 @@
+package test1;
+
+public class Overloading {
+	public static void main(String[] args) {
+		test(1);
+		test("sss");
+		test("s");
+		test("s", 1);
+		test(1,"s");
+		test1(1);
+	}
+	public void test() {}
+	public static void test(String str) {}
+	public static void test(int i) {}
+	public static void test1(String s) {}
+	public static void test(char ch) {}
+	public static void test(String str, int i) {}
+	public static void test(int i, String str) {}
+	private static void test1(int i) {}
+	public void test1() {return;}
+	
+}

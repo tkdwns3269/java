@@ -1,0 +1,12 @@
+package q.thread;
+
+public class Run {
+	public static void main(String[] args) {
+
+		Task t1 = new Task();
+		Runnable task = new Task();
+		t1.start();
+		
+		System.out.println("END : " + Thread.currentThread().getName());
+	}
+}

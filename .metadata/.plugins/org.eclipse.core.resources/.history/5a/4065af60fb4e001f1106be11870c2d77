@@ -1,0 +1,7 @@
+package q.thread.ex3;
+
+import java.util.HashMap;
+
+public class FarmController {
+	private HashMap hMap<Farm, Integer> = new HashaMap<>();
+}

@@ -1,0 +1,8 @@
+package pokemonDirectory;
+
+import java.util.Scanner;
+
+public class PDMenu {
+	private Scanner sc = new Scanner(System.in);
+	
+}

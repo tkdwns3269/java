@@ -1,0 +1,16 @@
+package test1;
+
+import test240710.Person;
+
+public class Test {
+	public static void main(String[] args) {
+		Person [] pArr = new Person[3];
+		
+		
+		
+		for(int i=0; i<=pArr.length; i++) {
+			pArr[i] = null;
+			System.out.println(pArr[i].getName());
+		}
+	}
+}

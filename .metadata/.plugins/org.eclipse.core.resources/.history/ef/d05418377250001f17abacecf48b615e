@@ -1,0 +1,8 @@
+package test1;
+
+import test1.Circle;
+
+public class Run {
+	Circle c= new Circle();
+	c.set
+}

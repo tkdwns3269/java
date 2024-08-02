@@ -1,0 +1,15 @@
+package test1;
+
+public class Test {
+	public static void main(String[] args) {
+		
+		String[] pArr = new String[3]; 
+		pArr[0] = "a";
+		pArr[1] = "b";
+		pArr[2] = "c";
+		for(int i=0; i<=pArr.length; i++) {
+			pArr[i] = arr[i];
+			System.out.println(pArr[i].getName());
+		}
+	}
+}
