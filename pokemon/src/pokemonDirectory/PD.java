@@ -102,8 +102,15 @@ public class PD {
 
 	@Override
 	public String toString() {
-		return "PD 이름 : " + name + " type=" + type + "  체력 : " + HP + " 공격 : " + Atk + " 방어 : " + Def + " 특수공격 : "
-				+ SAtk + " 특수방어 : " + SDef + " 스피드 " + Spd + " 종족값 총합 : " + BaseStats;
+		return "PD 이름 : " + name + 
+				" type=" + type + 
+				"  체력 : " + HP + 
+				" 공격 : " + Atk + 
+				" 방어 : " + Def + 
+				" 특수공격 : "+ SAtk + 
+				" 특수방어 : " + SDef + 
+				" 스피드 " + Spd + 
+				" 종족값 총합 : " + BaseStats;
 	}
 
 }
